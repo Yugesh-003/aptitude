@@ -133,7 +133,7 @@ def game(choices):
     title.config(text="Answer the following questions..")
     for inx, ques in enumerate(selected_questions):
 
-        tk.Label(root, text=f"{inx + 1}. {ques} ",font=("Times New Roman",14)).pack(pady=5)
+        tk.Label(root, text=f"{inx + 1}. {ques} ",font=("Times New Roman",14),wraplength=650 ).pack(pady=5)
 ######################################################################################################        
             
         # Create a StringVar for this question
@@ -141,13 +141,19 @@ def game(choices):
         var.set(None)  # No option selected initially
         answers.append(var)
 
-        # Create and pack the radiobuttons for this question
-        tk.Radiobutton(root, text=selected_options[inx][0], variable=var, value=selected_options[inx][0]).pack()
-        tk.Radiobutton(root, text=selected_options[inx][1], variable=var, value=selected_options[inx][1]).pack()
-        tk.Radiobutton(root, text=selected_options[inx][2], variable=var, value=selected_options[inx][2]).pack()
-        tk.Radiobutton(root, text=selected_options[inx][3], variable=var, value=selected_options[inx][3]).pack()
-
             
+        # Frame for first row (first two options)
+        frame1 = tk.Frame(root)
+        frame1.pack()
+        tk.Radiobutton(frame1, text=selected_options[inx][0], variable=var, value=selected_options[inx][0]).pack(side="left", padx=10)
+        tk.Radiobutton(frame1, text=selected_options[inx][1], variable=var, value=selected_options[inx][1]).pack(side="left", padx=10)
+
+        # Frame for second row (next two options)
+        frame2 = tk.Frame(root)
+        frame2.pack()
+        tk.Radiobutton(frame2, text=selected_options[inx][2], variable=var, value=selected_options[inx][2]).pack(side="left", padx=10)
+        tk.Radiobutton(frame2, text=selected_options[inx][3], variable=var, value=selected_options[inx][3]).pack(side="left", padx=10)
+                
 ######################################################################################################
         crt_ans = tk.Label(root,text='')
         crt_ans.pack()
