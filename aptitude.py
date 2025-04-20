@@ -1,4 +1,4 @@
-#Trivia game
+#aptitude game
 
 import random
 import tkinter as tk
@@ -11,6 +11,7 @@ from pandas import options
 submit_btn = None
 timer_id = None
 choices = None
+topic = None
 selected_answers = []
 selected_options = []
 selected_questions = []
@@ -119,8 +120,9 @@ def countdown(seconds):
         
 
 def game(choices):
-    
+    global topic    
     start.pack_forget()
+    topic.pack_forget()
     selected_questions.clear()
     selected_answers.clear()
 
@@ -172,12 +174,15 @@ root = tk.Tk()
 root.title("Trivia game")
 
 def setup_ui():
-    global title, timer_label,start, choices
-    root.geometry("700x800")
+    global title, timer_label,start, topic, choices
+    root.geometry("650x780")
     root.configure(bg="#f0f0f0")
 
-    title = tk.Label(root, text="Welcome to the Aptitude Test!", font=("Times New Roman", 18, "bold"), bg="#f9f9f9", fg="#333")
+    title = tk.Label(root, text="Welcome to the Aptitude Test!", font=("Times New Roman", 18, "bold"))
     title.pack(pady=20)
+    
+    topic = tk.Label(root, text="Select the topic..", font=("Times New Roman", 12, "bold"))
+    topic.pack(pady=20)
     
     choices = ttk.Combobox(root,value = ["Ratio and Proportion","Average","Profit and Loss","Time and Work","Reasoning Skills"])
     choices.pack()

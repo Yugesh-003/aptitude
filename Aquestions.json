@@ -61,9 +61,9 @@
       "answer": "15:10:8"
     },
     {
-      "question": "A sum is divided between A and B in the ratio 7:5. A gets ₹84 more. Find the sum.",
-      "options": ["₹504", "₹480", "₹396", "₹360"],
-      "answer": "₹504"
+      "question": "A sum is divided between A and B in the ratio 7:5. A gets Rs.84 more. Find the sum.",
+      "options": ["Rs.504", "Rs.480", "Rs.396", "Rs.360"],
+      "answer": "Rs.504"
     },
     {
       "question": "If a:b = 3:4 and b:c = 2:5, find a:b:c",
@@ -71,9 +71,9 @@
       "answer": "6:8:20"
     },
     {
-      "question": "Divide ₹420 between A, B, and C in ratio 2:3:4.",
-      "options": ["₹80, ₹140, ₹200", "₹100, ₹140, ₹180", "₹90, ₹130, ₹200", "₹120, ₹150, ₹150"],
-      "answer": "₹80, ₹140, ₹200"
+      "question": "Divide Rs.420 between A, B, and C in ratio 2:3:4.",
+      "options": ["Rs.80, Rs.140, Rs.200", "Rs.100, Rs.140, Rs.180", "Rs.90, Rs.130, Rs.200", "Rs.120, Rs.150, Rs.150"],
+      "answer": "Rs.80, Rs.140, Rs.200"
     },
     {
       "question": "Find the fourth proportional to 3, 5, and 15.",
@@ -207,104 +207,104 @@
 
   "profit_and_loss": [
     {
-      "question": "If a product is sold at ₹120 with a profit of 20%, what is the cost price?",
-      "options": ["₹90", "₹95", "₹100", "₹110"],
-      "answer": "₹100"
+      "question": "If a product is sold at Rs.120 with a profit of 20%, what is the cost price?",
+      "options": ["Rs.90", "Rs.95", "Rs.100", "Rs.110"],
+      "answer": "Rs.100"
     },
     {
-      "question": "If the cost price is ₹150 and loss is 10%, what is the selling price?",
-      "options": ["₹135", "₹140", "₹145", "₹150"],
-      "answer": "₹135"
+      "question": "If the cost price is Rs.150 and loss is 10%, what is the selling price?",
+      "options": ["Rs.135", "Rs.140", "Rs.145", "Rs.150"],
+      "answer": "Rs.135"
     },
     {
-      "question": "Profit = ₹40, SP = ₹240. What is the cost price?",
-      "options": ["₹180", "₹200", "₹220", "₹230"],
-      "answer": "₹200"
+      "question": "Profit = Rs.40, SP = Rs.240. What is the cost price?",
+      "options": ["Rs.180", "Rs.200", "Rs.220", "Rs.230"],
+      "answer": "Rs.200"
     },
     {
-      "question": "Loss = ₹25, CP = ₹250. Find SP.",
-      "options": ["₹200", "₹215", "₹225", "₹235"],
-      "answer": "₹225"
+      "question": "Loss = Rs.25, CP = Rs.250. Find SP.",
+      "options": ["Rs.200", "Rs.215", "Rs.225", "Rs.235"],
+      "answer": "Rs.225"
     },
     {
-      "question": "If selling price is ₹500 and profit is 25%, find cost price.",
-      "options": ["₹400", "₹425", "₹450", "₹475"],
-      "answer": "₹400"
+      "question": "If selling price is Rs.500 and profit is 25%, find cost price.",
+      "options": ["Rs.400", "Rs.425", "Rs.450", "Rs.475"],
+      "answer": "Rs.400"
     },
     {
-      "question": "A trader sells an item at a loss of 5%. CP = ₹800. Find SP.",
-      "options": ["₹760", "₹765", "₹780", "₹790"],
-      "answer": "₹760"
+      "question": "A trader sells an item at a loss of 5%. CP = Rs.800. Find SP.",
+      "options": ["Rs.760", "Rs.765", "Rs.780", "Rs.790"],
+      "answer": "Rs.760"
     },
     {
-      "question": "Profit of 10% on selling price = ₹55. Find cost price.",
-      "options": ["₹495", "₹500", "₹545", "₹550"],
-      "answer": "₹495"
+      "question": "Profit of 10% on selling price = Rs.55. Find cost price.",
+      "options": ["Rs.495", "Rs.500", "Rs.545", "Rs.550"],
+      "answer": "Rs.495"
     },
     {
-      "question": "Loss of 20% and cost price is ₹1000. What is SP?",
-      "options": ["₹700", "₹750", "₹800", "₹850"],
-      "answer": "₹800"
+      "question": "Loss of 20% and cost price is Rs.1000. What is SP?",
+      "options": ["Rs.700", "Rs.750", "Rs.800", "Rs.850"],
+      "answer": "Rs.800"
     },
     {
-      "question": "SP = ₹660, profit = 10%. What is CP?",
-      "options": ["₹590", "₹600", "₹610", "₹620"],
-      "answer": "₹600"
+      "question": "SP = Rs.660, profit = 10%. What is CP?",
+      "options": ["Rs.590", "Rs.600", "Rs.610", "Rs.620"],
+      "answer": "Rs.600"
     },
     {
-      "question": "Profit of ₹60 on ₹240 CP. What is profit percentage?",
+      "question": "Profit of Rs.60 on Rs.240 CP. What is profit percentage?",
       "options": ["20%", "25%", "30%", "35%"],
       "answer": "25%"
     },
     {
-      "question": "A seller sells an article for ₹1050 with 5% loss. What is the cost price?",
-      "options": ["₹1100", "₹1050", "₹1000", "₹950"],
-      "answer": "₹1105.26"
+      "question": "A seller sells an article for Rs.1050 with 5% loss. What is the cost price?",
+      "options": ["Rs.1100", "Rs.1050", "Rs.1000", "Rs.950"],
+      "answer": "Rs.1105.26"
     },
     {
-      "question": "Selling price = ₹420, gain = 5%. What is cost price?",
-      "options": ["₹400", "₹410", "₹415", "₹425"],
-      "answer": "₹400"
+      "question": "Selling price = Rs.420, gain = 5%. What is cost price?",
+      "options": ["Rs.400", "Rs.410", "Rs.415", "Rs.425"],
+      "answer": "Rs.400"
     },
     {
-      "question": "Loss = ₹80, SP = ₹720. What is CP?",
-      "options": ["₹780", "₹800", "₹820", "₹840"],
-      "answer": "₹800"
+      "question": "Loss = Rs.80, SP = Rs.720. What is CP?",
+      "options": ["Rs.780", "Rs.800", "Rs.820", "Rs.840"],
+      "answer": "Rs.800"
     },
     {
-      "question": "Profit is 20%, CP is ₹150. Find SP.",
-      "options": ["₹170", "₹175", "₹180", "₹185"],
-      "answer": "₹180"
+      "question": "Profit is 20%, CP is Rs.150. Find SP.",
+      "options": ["Rs.170", "Rs.175", "Rs.180", "Rs.185"],
+      "answer": "Rs.180"
     },
     {
-      "question": "If SP = ₹950 and CP = ₹1000, find the loss percentage.",
+      "question": "If SP = Rs.950 and CP = Rs.1000, find the loss percentage.",
       "options": ["3%", "4%", "5%", "6%"],
       "answer": "5%"
     },
     {
-      "question": "Gain of 12.5% means selling at how much more than CP of ₹800?",
-      "options": ["₹100", "₹90", "₹80", "₹70"],
-      "answer": "₹100"
+      "question": "Gain of 12.5% means selling at how much more than CP of Rs.800?",
+      "options": ["Rs.100", "Rs.90", "Rs.80", "Rs.70"],
+      "answer": "Rs.100"
     },
     {
-      "question": "A man sold two items for ₹1000 each. On one he gained 25%, on the other he lost 25%. Overall result?",
+      "question": "A man sold two items for Rs.1000 each. On one he gained 25%, on the other he lost 25%. Overall result?",
       "options": ["No profit no loss", "Gain 6.25%", "Loss 6.25%", "Loss 12.5%"],
       "answer": "Loss 6.25%"
     },
     {
-      "question": "If an article is sold at a gain of 16%, then SP = ? (CP = ₹250)",
-      "options": ["₹285", "₹290", "₹295", "₹300"],
-      "answer": "₹290"
+      "question": "If an article is sold at a gain of 16%, then SP = ? (CP = Rs.250)",
+      "options": ["Rs.285", "Rs.290", "Rs.295", "Rs.300"],
+      "answer": "Rs.290"
     },
     {
-      "question": "Marked price = ₹1000, discount = 20%. What is selling price?",
-      "options": ["₹700", "₹750", "₹800", "₹850"],
-      "answer": "₹800"
+      "question": "Marked price = Rs.1000, discount = 20%. What is selling price?",
+      "options": ["Rs.700", "Rs.750", "Rs.800", "Rs.850"],
+      "answer": "Rs.800"
     },
     {
-      "question": "An article is sold at ₹840 with 12% gain. What is cost price?",
-      "options": ["₹750", "₹760", "₹770", "₹780"],
-      "answer": "₹750"
+      "question": "An article is sold at Rs.840 with 12% gain. What is cost price?",
+      "options": ["Rs.750", "Rs.760", "Rs.770", "Rs.780"],
+      "answer": "Rs.750"
     }
   ],
 
