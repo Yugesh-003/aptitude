@@ -14,7 +14,7 @@ choices = None
 selected_answers = []
 selected_options = []
 selected_questions = []
-no_of_questions = 3
+no_of_questions = 5
 
 def questionSelection(choices):
     selected_cat = choices.get()
@@ -94,6 +94,9 @@ def restart():
     # Reset everything
     answers.clear()
     correct_ans.clear()
+    selected_answers.clear()
+    selected_options.clear()
+    selected_questions.clear()
 
     # Restart the game
     setup_ui()
@@ -106,10 +109,12 @@ def start_timer(t):
 def countdown(seconds):
     global timer_id
     if seconds > 0:
-        timer_label.config(text = f"Time Left : {seconds}")
+        minutes = seconds // 60
+        secs = seconds % 60
+        timer_label.config(text=f"Time Left: {minutes:02d}:{secs:02d}")
         timer_id = root.after(1000, countdown, seconds - 1)
     else:
-        timer_label.config(text = "Time's up!")
+        timer_label.config(text="Time's up!")
         submit(answers)
         
 
@@ -161,7 +166,7 @@ def game(choices):
         
     submit_btn = tk.Button(root, text="Submit", font=("Times New Roman",13),command=lambda : submit(answers))
     submit_btn.pack(pady=5)
-    start_timer(60)
+    start_timer(300)
    
 root = tk.Tk()
 root.title("Trivia game")
@@ -171,7 +176,7 @@ def setup_ui():
     root.geometry("700x800")
     root.configure(bg="#f0f0f0")
 
-    title = tk.Label(root, text="Welcome to the Trivia Game!", font=("Times New Roman", 18, "bold"), bg="#f9f9f9", fg="#333")
+    title = tk.Label(root, text="Welcome to the Aptitude Test!", font=("Times New Roman", 18, "bold"), bg="#f9f9f9", fg="#333")
     title.pack(pady=20)
     
     choices = ttk.Combobox(root,value = ["Ratio and Proportion","Average","Profit and Loss","Time and Work","Reasoning Skills"])
