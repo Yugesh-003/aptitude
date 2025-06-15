@@ -1,68 +1,516 @@
 {
-    "easy": [
-      {"question": "What is 15 + 28?", "answer": "43"},
-      {"question": "Subtract 47 from 90.", "answer": "43"},
-      {"question": "Multiply 12 by 3.", "answer": "36"},
-      {"question": "Divide 64 by 8.", "answer": "8"},
-      {"question": "What is the next number in the series: 5, 10, 15, 20, ?", "answer": "25"},
-      {"question": "If a packet costs ₹50, what is the cost of 4 packets?", "answer": "₹200"},
-      {"question": "The area of a square is 49 sq.m. What is the length of its side?", "answer": "7 meters"},
-      {"question": "How many sides does a hexagon have?", "answer": "6"},
-      {"question": "A dozen bananas cost ₹60. How much for 1 banana?", "answer": "₹5"},
-      {"question": "1 liter is equal to how many milliliters?", "answer": "1000 milliliters"},
-      {"question": "If 9 pens cost ₹90, what is the cost of 3 pens?", "answer": "₹30"},
-      {"question": "What is 7 squared?", "answer": "49"},
-      {"question": "If a car covers 60 km in 1 hour, how much distance will it cover in 4 hours?", "answer": "240 km"},
-      {"question": "Subtract 33 from 78.", "answer": "45"},
-      {"question": "If the perimeter of a rectangle is 24m and its length is 7m, what is its breadth?", "answer": "5m"},
-      {"question": "Simplify: 9 + 3 × 4", "answer": "21"},
-      {"question": "If 1 week has 7 days, how many days are there in 4 weeks?", "answer": "28 days"},
-      {"question": "A bus departs at 5 PM and reaches at 9 PM. How many hours did it travel?", "answer": "4 hours"},
-      {"question": "Find the missing number: 2, 4, 8, 16, ?", "answer": "32"},
-      {"question": "If 100 apples are equally divided among 5 people, how many apples does each person get?", "answer": "20"}
-    ],
-    "medium": [
-      {"question": "A man invests ₹6000 at 12% p.a. simple interest for 3 years. Find the interest.", "answer": "₹2160"},
-      {"question": "A shopkeeper marks an article at ₹500 and offers a 10% discount. Selling price?", "answer": "₹450"},
-      {"question": "If the ratio of boys to girls is 4:5 and total students are 81, find the number of girls.", "answer": "45"},
-      {"question": "A train running at 72 km/h crosses a pole in 25 seconds. Find its length.", "answer": "500 meters"},
-      {"question": "A and B together can finish a work in 8 days. A alone can do it in 12 days. How long will B take alone?", "answer": "24 days"},
-      {"question": "The average of 15, 20, 25, 30, 35 is?", "answer": "25"},
-      {"question": "Simplify: (50 ÷ 2) + (30 × 2)", "answer": "80"},
-      {"question": "A man bought a fan for ₹1200 and sold it for ₹1500. Find his profit percentage.", "answer": "25%"},
-      {"question": "A sum of ₹10000 is compounded annually at 8% for 2 years. Find the amount.", "answer": "₹11664"},
-      {"question": "If 6 workers can complete a job in 15 days, how many days will 10 workers take?", "answer": "9 days"},
-      {"question": "If the perimeter of a circle is 44 cm, find its radius.", "answer": "7 cm"},
-      {"question": "The difference between simple and compound interest on ₹5000 for 2 years at 10% is?", "answer": "₹50"},
-      {"question": "If the speed of a car is 60 km/h, how much time does it take to cover 180 km?", "answer": "3 hours"},
-      {"question": "The population of a village increases by 5% annually. If the present population is 2205, what was it 1 year ago?", "answer": "2100"},
-      {"question": "What is the square root of 225?", "answer": "15"},
-      {"question": "A man covers a distance in 3 hours at a speed of 60 km/h. Find the distance.", "answer": "180 km"},
-      {"question": "If 3 numbers have an average of 50 and two numbers are 45 and 55, what is the third number?", "answer": "50"},
-      {"question": "A bag contains 5 red and 3 blue balls. A ball is drawn randomly. Probability of getting a red ball?", "answer": "5/8"},
-      {"question": "If a person spends 60% of his salary and saves ₹4000, what is his total salary?", "answer": "₹10000"},
-      {"question": "A boat takes 4 hours to go downstream and 5 hours upstream. Speed of boat in still water is 12 km/h. Find the speed of the stream.", "answer": "2 km/h"}
-    ],
-    "hard": [
-      {"question": "A sum amounts to ₹13310 in 2 years at compound interest at 10% p.a. Find the principal.", "answer": "₹11000"},
-      {"question": "A tank can be filled by one pipe in 12 hours and emptied by another in 20 hours. If both are open, how long will it take to fill the tank?", "answer": "30 hours"},
-      {"question": "A train 360 m long is running at 45 km/h. How long will it take to cross a platform 140 m long?", "answer": "40 seconds"},
-      {"question": "If A can do a piece of work in 10 days and B can do it in 15 days, working together, how long will they take?", "answer": "6 days"},
-      {"question": "A man can row 30 km downstream in 3 hours and upstream in 5 hours. Find the speed of the boat in still water.", "answer": "6 km/h"},
-      {"question": "If the compound interest on ₹5000 for 3 years is ₹1576.25, find the rate of interest.", "answer": "10% p.a."},
-      {"question": "The average age of a family of 5 members is 26 years. If the youngest member is 4 years old, what was the average age before the youngest was born?", "answer": "30 years"},
-      {"question": "Two numbers are such that their HCF is 16 and their LCM is 256. If one number is 64, find the other.", "answer": "64"},
-      {"question": "A batsman has an average of 45 runs in 20 innings. If he scores 95 runs in the next innings, what will be his new average?", "answer": "47.5"},
-      {"question": "A shopkeeper gains 20% after allowing a discount of 10%. Find the marked price if the cost price is ₹450.", "answer": "₹600"},
-      {"question": "Two pipes can fill a cistern in 15 and 20 minutes respectively, but a waste pipe empties it in 30 minutes. Time to fill the cistern when all are open?", "answer": "10 minutes"},
-      {"question": "A sum of money triples in 8 years at simple interest. Find the rate of interest per annum.", "answer": "25%"},
-      {"question": "The present age of a father is three times that of his son. Five years ago, the father's age was four times his son's age. Find their present ages.", "answer": "Father = 45, Son = 15"},
-      {"question": "A train overtakes two persons walking in the same direction at speeds of 3 km/h and 5 km/h in 36 seconds and 30 seconds respectively. Find the speed of the train.", "answer": "30 km/h"},
-      {"question": "A and B can do a job in 4 days. B alone can do it in 12 days. How long would A take to do the job alone?", "answer": "6 days"},
-      {"question": "The compound interest on ₹6400 at 5% p.a. for 2 years is?", "answer": "₹656"},
-      {"question": "A car covers a distance at 60 km/h in 5 hours. What will be the time taken at 75 km/h?", "answer": "4 hours"},
-      {"question": "A man buys an article for ₹2500 and sells it at a loss of 5%. Find the selling price.", "answer": "₹2375"},
-      {"question": "The perimeter of a semicircle is 72 cm. Find the radius.", "answer": "16 cm"},
-      {"question": "A, B, and C can complete a piece of work in 10, 15, and 20 days respectively. How long will they take to complete it together?", "answer": "4.62 days (approx.)"}
-    ]
-  }
+  "ratio_and_proportion": [
+    {
+      "question": "If A:B=5:7 and B:C=6:11, then A:B:C is:",
+      "options": ["55:77:66", "30:42:77", "35:49:42", "30:42:80"],
+      "answer": "30:42:77"
+    },
+    {
+      "question": "If A:B=8:15, B:C=5:8 and C:D=4:5 then A:D is equal to:",
+      "options": ["2:7", "4:15", "8:15", "15:4"],
+      "answer": "4:15"
+    },
+    {
+      "question": "If 2A=3B=4C then A:B:C is:",
+      "options": ["2:3:4", "4:3:2", "6:4:3", "20:15:12"],
+      "answer": "6:4:3"
+    },
+    {
+      "question": "If x:y=5:2, then (8x+9y):(8x+2y) is:",
+      "options": ["22:29", "26:61", "29:22", "61:26"],
+      "answer": "61:26"
+    },
+    {
+      "question": "The salaries of A, B, C are in the ratio 2:3:5. After 15%, 10%, and 20% increments respectively, what is the new ratio?",
+      "options": ["3:3:10", "10:11:20", "23:33:60", "9:3:5"],
+      "answer": "23:33:60"
+    },
+    {
+      "question": "Rs.782 is divided in the ratio 1/2:2/3:3/4. The first part is:",
+      "options": ["Rs.182", "Rs.190", "Rs.196", "Rs.204"],
+      "answer": "Rs.196"
+    },
+    {
+      "question": "Two numbers are in the ratio 3:5. Subtracting 9 from each gives 12:23. The smaller number is:",
+      "options": ["27", "33", "49", "55"],
+      "answer": "33"
+    },
+    {
+      "question": "Rs.1210 is divided among A, B, and C in the ratio A:B = 5:4, B:C = 9:10. What does C get?",
+      "options": ["Rs.340", "Rs.400", "Rs.456", "Rs.475"],
+      "answer": "Rs.456"
+    },
+    {
+      "question": "The ratio of three numbers is 3:4:5. If their squares sum to 1250, the sum of the numbers is:",
+      "options": ["30", "50", "60", "90"],
+      "answer": "60"
+    },
+    {
+      "question": "Income of A and B are in ratio 6:5; expenses in 9:7. Both save Rs.1500. Total income?",
+      "options": ["11,000", "10,000", "9,000", "12,000"],
+      "answer": "11,000"
+    },
+    {
+      "question": "If 4A = 5B and 6B = 7C, then A:B:C = ?",
+      "options": ["28:35:30", "20:25:30", "24:30:35", "30:24:35"],
+      "answer": "28:35:30"
+    },
+    {
+      "question": "If 2x = 3y and 4y = 5z, then x:y:z = ?",
+      "options": ["15:10:8", "10:15:8", "6:4:5", "3:2:1"],
+      "answer": "15:10:8"
+    },
+    {
+      "question": "A sum is divided between A and B in the ratio 7:5. A gets Rs.84 more. Find the sum.",
+      "options": ["Rs.504", "Rs.480", "Rs.396", "Rs.360"],
+      "answer": "Rs.504"
+    },
+    {
+      "question": "If a:b = 3:4 and b:c = 2:5, find a:b:c",
+      "options": ["6:8:20", "3:2:5", "3:4:5", "2:3:5"],
+      "answer": "6:8:20"
+    },
+    {
+      "question": "Divide Rs.420 between A, B, and C in ratio 2:3:4.",
+      "options": ["Rs.80, Rs.140, Rs.200", "Rs.100, Rs.140, Rs.180", "Rs.90, Rs.130, Rs.200", "Rs.120, Rs.150, Rs.150"],
+      "answer": "Rs.80, Rs.140, Rs.200"
+    },
+    {
+      "question": "Find the fourth proportional to 3, 5, and 15.",
+      "options": ["25", "27", "30", "45"],
+      "answer": "25"
+    },
+    {
+      "question": "Find the third proportional to 4 and 8.",
+      "options": ["12", "16", "18", "20"],
+      "answer": "16"
+    },
+    {
+      "question": "If a:b = 5:6 and b:c = 7:8, find a:c",
+      "options": ["35:48", "5:8", "6:7", "8:9"],
+      "answer": "35:48"
+    },
+    {
+      "question": "A and B earn in the ratio 3:4 and spend in the ratio 4:5. Who saves more?",
+      "options": ["A", "B", "Both save equally", "Can't determine"],
+      "answer": "B"
+    },
+    {
+      "question": "If A:B = 2:3, B:C = 4:5, then A:B:C = ?",
+      "options": ["8:12:15", "2:3:5", "4:5:6", "6:8:10"],
+      "answer": "8:12:15"
+    }
+  ],
+
+  "average": [
+    {
+      "question": "5 years ago, the average age of A, B, C, and D was 45. Now, with E, the average is 49. What is E's age?",
+      "options": ["65", "69", "73", "75"],
+      "answer": "73"
+    },
+    {
+      "question": "3 years ago, the average age of a family of 5 members was 17. A baby was born since then, and the average is still the same. What is the baby's current age?",
+      "options": ["3", "2", "1", "0"],
+      "answer": "0"
+    },
+    {
+      "question": "The average weight of 50 students is 45 kg. One leaves and the average drops by 0.1 kg. What was the weight of the student who left?",
+      "options": ["50 kg", "55 kg", "45.1 kg", "50.1 kg"],
+      "answer": "50.1 kg"
+    },
+    {
+      "question": "The average age of 36 students is 27. One leaves and the average increases by 3 months. What is the age of the student who left?",
+      "options": ["18", "27", "36", "45"],
+      "answer": "18"
+    },
+    {
+      "question": "Average weight of a group is 40 kg. A 58.5 kg boy joins, and average increases by 0.5 kg. How many were in the group originally?",
+      "options": ["37", "39", "41", "36"],
+      "answer": "37"
+    },
+    {
+      "question": "Find the average of all even numbers between 104 and 148.",
+      "options": ["126", "127", "128", "129"],
+      "answer": "126"
+    },
+    {
+      "question": "Average of 9 consecutive numbers is n. If 2 more added, what happens to average?",
+      "options": ["Increases by 2", "Remains the same", "Increases by 5", "Increases by 1"],
+      "answer": "Increases by 1"
+    },
+    {
+      "question": "What is the average of 1,3,5,7,... up to 25 terms?",
+      "options": ["25", "24", "26", "27"],
+      "answer": "25"
+    },
+    {
+      "question": "Average of first 4 even numbers divisible by 9?",
+      "options": ["18", "36", "54", "72"],
+      "answer": "36"
+    },
+    {
+      "question": "Average of first 10 even numbers divisible by 8?",
+      "options": ["40", "44", "48", "52"],
+      "answer": "44"
+    },
+    {
+      "question": "Find average of first 5 odd numbers divisible by 7.",
+      "options": ["35", "49", "56", "63"],
+      "answer": "49"
+    },
+    {
+      "question": "In first 10 overs, run rate is 3.2. To reach 282 in 50 overs, required rate in remaining 40 overs is:",
+      "options": ["6.2", "6.5", "6.8", "7.0"],
+      "answer": "6.5"
+    },
+    {
+      "question": "Average of 5, 10, 15, 20, 25 is:",
+      "options": ["10", "15", "20", "25"],
+      "answer": "15"
+    },
+    {
+      "question": "If average of 7 numbers is 20, what is their total?",
+      "options": ["140", "120", "160", "180"],
+      "answer": "140"
+    },
+    {
+      "question": "Average of first 10 natural numbers:",
+      "options": ["5", "5.5", "6", "6.5"],
+      "answer": "5.5"
+    },
+    {
+      "question": "Average of first 10 multiples of 3:",
+      "options": ["15", "16.5", "18", "19.5"],
+      "answer": "16.5"
+    },
+    {
+      "question": "Average of first 5 prime numbers:",
+      "options": ["3.6", "5.5", "4.5", "6.2"],
+      "answer": "4.4"
+    },
+    {
+      "question": "Average of 12, 14, 16, 18, 20:",
+      "options": ["16", "17", "18", "19"],
+      "answer": "16"
+    },
+    {
+      "question": "If the average of 3 numbers is 50, and two are 40 and 60, what's the third?",
+      "options": ["40", "50", "60", "50"],
+      "answer": "50"
+    },
+    {
+      "question": "Average temperature of a week is 30°C. If one day's temp was 36°C, what's average of remaining days?",
+      "options": ["29", "30", "31", "32"],
+      "answer": "29"
+    }
+  ],
+
+  "profit_and_loss": [
+    {
+      "question": "If a product is sold at Rs.120 with a profit of 20%, what is the cost price?",
+      "options": ["Rs.90", "Rs.95", "Rs.100", "Rs.110"],
+      "answer": "Rs.100"
+    },
+    {
+      "question": "If the cost price is Rs.150 and loss is 10%, what is the selling price?",
+      "options": ["Rs.135", "Rs.140", "Rs.145", "Rs.150"],
+      "answer": "Rs.135"
+    },
+    {
+      "question": "Profit = Rs.40, SP = Rs.240. What is the cost price?",
+      "options": ["Rs.180", "Rs.200", "Rs.220", "Rs.230"],
+      "answer": "Rs.200"
+    },
+    {
+      "question": "Loss = Rs.25, CP = Rs.250. Find SP.",
+      "options": ["Rs.200", "Rs.215", "Rs.225", "Rs.235"],
+      "answer": "Rs.225"
+    },
+    {
+      "question": "If selling price is Rs.500 and profit is 25%, find cost price.",
+      "options": ["Rs.400", "Rs.425", "Rs.450", "Rs.475"],
+      "answer": "Rs.400"
+    },
+    {
+      "question": "A trader sells an item at a loss of 5%. CP = Rs.800. Find SP.",
+      "options": ["Rs.760", "Rs.765", "Rs.780", "Rs.790"],
+      "answer": "Rs.760"
+    },
+    {
+      "question": "Profit of 10% on selling price = Rs.55. Find cost price.",
+      "options": ["Rs.495", "Rs.500", "Rs.545", "Rs.550"],
+      "answer": "Rs.495"
+    },
+    {
+      "question": "Loss of 20% and cost price is Rs.1000. What is SP?",
+      "options": ["Rs.700", "Rs.750", "Rs.800", "Rs.850"],
+      "answer": "Rs.800"
+    },
+    {
+      "question": "SP = Rs.660, profit = 10%. What is CP?",
+      "options": ["Rs.590", "Rs.600", "Rs.610", "Rs.620"],
+      "answer": "Rs.600"
+    },
+    {
+      "question": "Profit of Rs.60 on Rs.240 CP. What is profit percentage?",
+      "options": ["20%", "25%", "30%", "35%"],
+      "answer": "25%"
+    },
+    {
+      "question": "A seller sells an article for Rs.1050 with 5% loss. What is the cost price?",
+      "options": ["Rs.1100", "Rs.1050", "Rs.1000", "Rs.950"],
+      "answer": "Rs.1105.26"
+    },
+    {
+      "question": "Selling price = Rs.420, gain = 5%. What is cost price?",
+      "options": ["Rs.400", "Rs.410", "Rs.415", "Rs.425"],
+      "answer": "Rs.400"
+    },
+    {
+      "question": "Loss = Rs.80, SP = Rs.720. What is CP?",
+      "options": ["Rs.780", "Rs.800", "Rs.820", "Rs.840"],
+      "answer": "Rs.800"
+    },
+    {
+      "question": "Profit is 20%, CP is Rs.150. Find SP.",
+      "options": ["Rs.170", "Rs.175", "Rs.180", "Rs.185"],
+      "answer": "Rs.180"
+    },
+    {
+      "question": "If SP = Rs.950 and CP = Rs.1000, find the loss percentage.",
+      "options": ["3%", "4%", "5%", "6%"],
+      "answer": "5%"
+    },
+    {
+      "question": "Gain of 12.5% means selling at how much more than CP of Rs.800?",
+      "options": ["Rs.100", "Rs.90", "Rs.80", "Rs.70"],
+      "answer": "Rs.100"
+    },
+    {
+      "question": "A man sold two items for Rs.1000 each. On one he gained 25%, on the other he lost 25%. Overall result?",
+      "options": ["No profit no loss", "Gain 6.25%", "Loss 6.25%", "Loss 12.5%"],
+      "answer": "Loss 6.25%"
+    },
+    {
+      "question": "If an article is sold at a gain of 16%, then SP = ? (CP = Rs.250)",
+      "options": ["Rs.285", "Rs.290", "Rs.295", "Rs.300"],
+      "answer": "Rs.290"
+    },
+    {
+      "question": "Marked price = Rs.1000, discount = 20%. What is selling price?",
+      "options": ["Rs.700", "Rs.750", "Rs.800", "Rs.850"],
+      "answer": "Rs.800"
+    },
+    {
+      "question": "An article is sold at Rs.840 with 12% gain. What is cost price?",
+      "options": ["Rs.750", "Rs.760", "Rs.770", "Rs.780"],
+      "answer": "Rs.750"
+    }
+  ],
+
+  "time_and_work": [
+    {
+      "question": "A can do a work in 10 days and B in 15 days. How long will they take together?",
+      "options": ["5 days", "6 days", "8 days", "9 days"],
+      "answer": "6 days"
+    },
+    {
+      "question": "A is twice as good a worker as B. Together they finish a work in 12 days. In how many days will A do it alone?",
+      "options": ["18", "12", "8", "6"],
+      "answer": "18"
+    },
+    {
+      "question": "A can do a job in 6 days, B in 8 days. How many days will they take working alternately starting with A?",
+      "options": ["6", "5.5", "5", "4.5"],
+      "answer": "5.5"
+    },
+    {
+      "question": "If A and B can complete a job in 20 days together, and A alone can do it in 30 days, how many days will B take?",
+      "options": ["60", "40", "30", "20"],
+      "answer": "60"
+    },
+    {
+      "question": "A does 1/2 of a job in 3 days. At the same rate, how many days will he take to finish the job?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "question": "A and B can complete a work in 12 days. B alone can complete it in 18 days. In how many days can A complete it alone?",
+      "options": ["36", "30", "24", "20"],
+      "answer": "36"
+    },
+    {
+      "question": "If 12 men can complete a job in 15 days, how many men are needed to complete it in 10 days?",
+      "options": ["10", "12", "15", "18"],
+      "answer": "18"
+    },
+    {
+      "question": "A and B can finish a job in 10 days. B alone can do it in 15 days. How many days A alone will take?",
+      "options": ["20", "25", "30", "40"],
+      "answer": "30"
+    },
+    {
+      "question": "If A can do a job in 18 days and B in 12 days, how many days will it take together?",
+      "options": ["6.5", "7.2", "7.5", "8"],
+      "answer": "7.2"
+    },
+    {
+      "question": "A can do a work in 16 days, B in 24 days. They work on alternate days starting with A. Total time to finish?",
+      "options": ["17", "16.5", "16", "15.5"],
+      "answer": "16.5"
+    },
+    {
+      "question": "Three men A, B and C can complete a job in 12, 15, and 20 days respectively. How long together?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "5"
+    },
+    {
+      "question": "A is thrice as fast as B. Together they do the work in 12 days. How many days for B alone?",
+      "options": ["48", "36", "30", "24"],
+      "answer": "48"
+    },
+    {
+      "question": "A and B can complete a work in 18 days. They start together, but A leaves after 6 days. B finishes the work in 12 more days. Time taken by B alone?",
+      "options": ["24", "27", "30", "36"],
+      "answer": "36"
+    },
+    {
+      "question": "If A takes 10 hours to complete a task and B takes 15 hours, how long if both work together?",
+      "options": ["6", "7", "8", "9"],
+      "answer": "6"
+    },
+    {
+      "question": "A can complete a job in 8 days, B in 12 days. They work together for 3 days. Work left?",
+      "options": ["1/4", "1/3", "1/2", "2/3"],
+      "answer": "1/2"
+    },
+    {
+      "question": "If 8 men can build a wall in 12 days, how many days will 6 men take?",
+      "options": ["14", "15", "16", "18"],
+      "answer": "16"
+    },
+    {
+      "question": "A and B can do a work in 20 days and 30 days respectively. After working together for 10 days, A leaves. Time for B to finish remaining?",
+      "options": ["5", "7", "8", "9"],
+      "answer": "5"
+    },
+    {
+      "question": "20 women can do a work in 16 days. In how many days can 16 women complete the same work?",
+      "options": ["16", "18", "20", "25"],
+      "answer": "20"
+    },
+    {
+      "question": "A can do a job in 4 days. B is 25% less efficient. Together they can do the job in?",
+      "options": ["1.8", "2.4", "2.6", "3.2"],
+      "answer": "2.4"
+    },
+    {
+      "question": "If A and B together can complete a job in 10 days and B alone in 15 days, how long will A alone take?",
+      "options": ["20", "25", "30", "35"],
+      "answer": "30"
+    }
+  ],
+
+  "reasoning_skills": [
+    {
+      "question": "Pointing to a photograph, Ram said, 'He is the son of the only son of my mother.' Who is the person in the photograph to Ram?",
+      "options": ["Brother", "Son", "Uncle", "Nephew"],
+      "answer": "Son"
+    },
+    {
+      "question": "A is the father of B. But B is not the son of A. How's that possible?",
+      "options": ["B is the daughter", "B is adopted", "A is uncle", "A is stepfather"],
+      "answer": "B is the daughter"
+    },
+    {
+      "question": "If in a code, DOG is written as FQI, then CAT is written as:",
+      "options": ["DCU", "EDU", "ECV", "FDW"],
+      "answer": "EDU"
+    },
+    {
+      "question": "If DELHI is coded as 73541 and CALCUTTA as 82589662, how is CALICUT coded?",
+      "options": ["8251392", "8251432", "8251932", "8251732"],
+      "answer": "8251392"
+    },
+    {
+      "question": "M is the daughter of P. P is the wife of R. R is the father of S. How is S related to M?",
+      "options": ["Sister", "Brother", "Cousin", "Uncle"],
+      "answer": "Brother"
+    },
+    {
+      "question": "If NORTH is coded as 67215 and SOUTH as 83915, how is NOURTH coded?",
+      "options": ["682715", "683215", "682315", "683715"],
+      "answer": "682715"
+    },
+    {
+      "question": "Introducing a man, a woman said, 'He is the only son of my mother’s husband.' Who is the man?",
+      "options": ["Father", "Son", "Brother", "Uncle"],
+      "answer": "Brother"
+    },
+    {
+      "question": "If WALK is coded as YCNM, what is TALK coded as?",
+      "options": ["VCNM", "UCNM", "VBNM", "VCNL"],
+      "answer": "VCNM"
+    },
+    {
+      "question": "In a certain code, BREAK is written as 51342 and RACK is written as 3412. How is BACK written?",
+      "options": ["5142", "5342", "5132", "5134"],
+      "answer": "5142"
+    },
+    {
+      "question": "A person walks 10 m north, then turns right and walks 5 m, then turns right again and walks 10 m. What direction is he now facing?",
+      "options": ["North", "South", "East", "West"],
+      "answer": "South"
+    },
+    {
+      "question": "A man walks 4 km north, turns left, walks 3 km, turns left again and walks 4 km. How far is he from the starting point?",
+      "options": ["1 km", "2 km", "3 km", "7 km"],
+      "answer": "3 km"
+    },
+    {
+      "question": "If the word ROAD is coded as URDG, how is FAST coded?",
+      "options": ["ICVW", "ICVU", "IBVW", "IBVX"],
+      "answer": "ICVW"
+    },
+    {
+      "question": "If in a code, TABLE is written as GZYOV, how is CHAIR written?",
+      "options": ["XQZOV", "XSZOV", "XZVOV", "XZVRI"],
+      "answer": "XZVRI"
+    },
+    {
+      "question": "Rahul is the brother of Sonia. Sonia is the daughter of Meena. Meena is the wife of Raj. How is Raj related to Rahul?",
+      "options": ["Father", "Brother", "Uncle", "Cousin"],
+      "answer": "Father"
+    },
+    {
+      "question": "If PENCIL is coded as QFODJM, what is ERASER coded as?",
+      "options": ["FSBTFQ", "FSCUFS", "FUBTFS", "FUBTFR"],
+      "answer": "FUBTFS"
+    },
+    {
+      "question": "If 'MANGO' is written as 'NZOHQ', then 'APPLE' is written as:",
+      "options": ["BQQMF", "BQPMF", "BQQNG", "BPPME"],
+      "answer": "BQQMF"
+    },
+    {
+      "question": "A man walks 10 km north, then 6 km east. How far is he from the starting point?",
+      "options": ["14 km", "16 km", "12 km", "13.42 km"],
+      "answer": "11.66 km"
+    },
+    {
+      "question": "Pointing to a woman, Raj said, 'She is the daughter of my grandfather’s only son.' Who is the woman?",
+      "options": ["Sister", "Mother", "Aunt", "Cousin"],
+      "answer": "Sister"
+    },
+    {
+      "question": "If ENCRYPT is coded as FODSZQU, how is DECODE coded?",
+      "options": ["EFDPEF", "DGDPEE", "EFDQFE", "EFCPEF"],
+      "answer": "EFDPEF"
+    },
+    {
+      "question": "A boy is facing north. He turns 90° clockwise, then 180° counterclockwise. Which direction is he facing now?",
+      "options": ["North", "West", "East", "South"],
+      "answer": "West"
+    }
+  ]
+}

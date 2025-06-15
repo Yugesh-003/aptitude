@@ -19,7 +19,7 @@ no_of_questions = 5
 
 def questionSelection(choices):
     selected_cat = choices.get()
-    with open("Aquestions.json","r") as file:
+    with open("questions.json","r") as file:
         data = json.load(file)
 
 
